@@ -1,14 +1,11 @@
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:brown;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
-h2{
-    font-size:x-large;
-    color:crimson;
+.body-color{
+    background-color: red;
 }
-table, th, td{
+td, th{
     border: 1px solid black;
-}
-table{
-    width: 100%;
+    text-align: center;
+    padding: 20px;
 }
