@@ -1,0 +1,9 @@
+input{
+    text-align: right;
+}
+#submit{
+    color:white;
+    background: red;
+    width: 100px;
+    height: 30px;
+}
