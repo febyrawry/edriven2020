@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/pay.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Assesment 3</title>
+</head>
+<body>
+    <input type="number" id="subtotal" name="subtotal" min="100" max="10,000" placeholder="Subtotal"></input>
+    <label for="subtotal">User input from 100 to 10,000</label><br><br>
+    <input type="text" disabled="true" id="tax" name="tax" placeholder="Tax">
+    <label for="tax">+12% Tax</label><br><br>
+    <input type="text" id="total" name="total" placeholder="Total" disabled="true">
+    <label for="total">Subtotal+Tax</label><br><br>
+    <input type="number" id="amountpaid" name="amountpaid" placeholder="Amount Paid" disabled="true">
+    <label for="amountpaid">Minimum is base on Subtotal+Tax</label><br><br>
+    <input type="text" disabled="true" id="change" name="change" placeholder="Change" disabled="true">
+    <label for="change">Amount Paid-Total</label><br><br>
+
+    <button type="submit" type="submit" disabled="true" id='submit'>Pay</button> <!--Press Enter button :((-->
+    <script src="js/pay.js"></script>
+</body>
+</html>
